@@ -7,7 +7,7 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6178450922:AAEfL50wwYkhokqukTMprn34Pot7vhwcPdQ")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5665095585:AAFEIc70J9YHfG-fitUadESL1nrxImNVs_s")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "27210407"))
@@ -16,7 +16,7 @@ APP_ID = int(os.environ.get("APP_ID", "27210407"))
 API_HASH = os.environ.get("API_HASH", "a1863fd48e9832fb7b1ef265197418eb")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001937975235"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001713482690"))
 
 # OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1726203406"))
@@ -25,16 +25,16 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1726203406"))
 OWNER = os.environ.get("OWNER","hayoloh27")
 
 # Databasenya 
-DB_URI = os.environ.get("DATABASE_URL", "postgres://awxqnloq:A871j1eJ9OHBUwyb00babO3uw3HWd_Dj@castor.db.elephantsql.com/awxqnloq")
+DB_URI = os.environ.get("DATABASE_URL", "postgresql://awxqnloq:A871j1eJ9OHBUwyb00babO3uw3HWd_Dj@castor.db.elephantsql.com/awxqnloq")
 
 # Username CH & Group
 CHANNEL = os.environ.get("CHANNEL", "vvslh_pro")
 GROUP = os.environ.get("GROUP", "vvslh_pro")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL","-1001830768068"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL","-1001807553215"))
 
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001854113590"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001961770595"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
